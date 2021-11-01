@@ -20,12 +20,21 @@ body {
   font-size: 1.5em;
 }
 
+h1 {
+  	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
 main {
   background-color: #202224;
   padding: 30px;
   margin: 40px;
   border-radius: 20px;
-	width: 65%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,7 +69,13 @@ textarea {
 	border-radius: 10px;
 	cursor: pointer;
 	margin-left: auto;
-  margin-right: auto;
+  	margin-right: auto;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 #gentext:hover {
 	background-color: #333333;
@@ -71,14 +86,14 @@ textarea {
 }
 
 .slider {
-  -webkit-appearance: none;  /* Override default CSS styles */
+  -webkit-appearance: none;
   appearance: none;
-  width: 100%; /* Full-width */
-  height: 25px; /* Specified height */
-  background: #d3d3d3; /* Grey background */
-  outline: none; /* Remove outline */
-  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none; 
+  opacity: 0.7; 
+  -webkit-transition: .2s;
   transition: opacity .2s;
 }
 
